@@ -3,8 +3,6 @@
 #Any code should be wrapped in method only
 import pytest
 
-
-
 @pytest.mark.smoke
 def test_firstProgram(setup):
     print("Hello")
@@ -17,6 +15,10 @@ def test_SecondGreetCreditCard():
 
 def test_crossBrowser(crossBrowser):
     print(crossBrowser[1])
+
+    #################
+    def test_crossBrowser(crossBrowser):
+        print(crossBrowser[1])
 
 
 
